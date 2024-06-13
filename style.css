@@ -1,0 +1,161 @@
+* {
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+/* header */
+/* header */
+.header {
+  max-width: 1000px;
+  margin: auto;
+  /* border: saddlebrown solid 5px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#name {
+  text-transform: uppercase;
+}
+.nav_name {
+  display: flex;
+  gap: 30px;
+}
+a {
+  color: #000;
+}
+.btn {
+  outline: none;
+  border: none;
+  background: #000;
+  padding: 8px 20px;
+  border-radius: 5px;
+  }
+  .btn a {
+  color: #fff;
+}
+
+
+.nav_body {
+  margin: 50px 0;
+  text-align: center;
+  
+}
+
+
+.img_logo {
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  box-shadow: 0 0 10px 10px #00000014;
+border-radius: 100%;
+
+  }
+  
+  
+  .img_logo img {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+span {
+  color: #878cff;
+}
+.nav_body .btn {
+  background: #878cff;
+}
+
+
+/* main */
+.Delighted {
+  max-width: 1280px;
+  background:#878CFF1C;
+  margin: 100px auto;
+  height: 555px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  .img_title {
+  display: flex;
+  height: 350px;
+  width: 940px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  /* border: saddlebrown solid 5px; */
+
+  
+}
+.img2 {
+  width: 350px;
+  height: 250px;
+  border-radius: 10%;
+  box-shadow: 0 0 10px 10px #00000014;
+}
+.img2 img {
+  border-radius: 10%;
+width: 100%;
+height: 100%;
+object-fit: cover;
+margin: 0;
+}
+
+.img_content_main {
+  width: 1000px;
+  margin: auto;
+}
+.img_content_main h2 {
+  font-size: xx-large;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.img_content {
+  display: flex;
+}
+.img_content img {
+  width: 315px;
+  height: 222px;
+  margin-right: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 10px #00000014;
+}
+
+.FEATURED{
+  max-width: 1000px;
+  margin: 50px auto;
+}
+.parent_content{
+  display: flex;
+  gap: 50px;
+}
+.Insights_content {
+  border: solid rgba(0, 0, 0, 0.132) 2px;
+  padding: 20px;
+  border-radius: 10px;
+}
+/* main */
+
+/* footer */
+footer {
+  background: #000;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+}
+footer img {
+  margin: 30px 20px;
+}
+footer p {
+  color: #fff;
+  /* margin: 50px 0; */
+}
+
+/* footer */
